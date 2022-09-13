@@ -1,0 +1,21 @@
+#!/bin/bash
+
+if [ -z "$1" ]; then
+    echo "svolgi: manca il parametro '<NOME_ESERCITAZIONE>/<MATRICOLA>'" >&2
+    exit 1
+fi
+eval $(
+HOME="${PROG2HOME:-/workspace/esercitazioni}/$(echo $1 | cut -d/ -f1)"
+cat <<EOF | python3 2>&1
+# -*- coding: utf-8 -*-
+from urllib.request import urlopen
+from urllib.error import HTTPError
+
+try:
+    data = urlopen('http://reaper.srv.di.unimi.it/tm/prog2ese/$1').read()
+except HTTPError:
+    print('echo "svolgi: l’esercitazione richiesta non è ancora stata pubblicata"')
+else:
+    exec(data)
+EOF
+)

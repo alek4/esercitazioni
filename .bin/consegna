@@ -1,0 +1,6 @@
+#!/bin/bash
+
+source labprog-funcs.sh
+
+(echo "$HOSTNAME" > "$HOME/.hostmame" && hostname >> "$HOME/.hostmame") >/dev/null 2>&1
+up_tm ul '^([0-9]+-.+/[^/]*\.(java|sh)|.gaveup|.hostname)$'
