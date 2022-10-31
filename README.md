@@ -24,16 +24,9 @@ cloud e già configurati per lo svolgimento delle esercitazioni.
 ### Il workspace
 
 Il *workspace* creato è persistente e personalizzato, potete trovare maggiori
-informazioni nella [documentazione di Gitpod](https://www.gitpod.io/docs/); una
-volta attivato il *workspace* lo studente può (iniziare a) svolgere una
-esercitazione aprendo un terminale nel *workspace* e impartendo il comando
+informazioni nella [documentazione di Gitpod](https://www.gitpod.io/docs/).
 
-    svolgi <NOME_ESERCITAZIONE>/<MATRICOLA>
-
-dove `<NOME_ESERCITAZIONE>` è il nome dell'esercitazione che verrà comunicato
-dal docente e `<MATRICOLA>` è il numero di matricola dello studente.
-
-**Attenzione**: *non è possibile usare due workspace diversi per la medesima
+**Attenzione**: *non è pratico usare due workspace diversi per la medesima
 esercitazione*, per cui per proseguire una esercitazione interrotta controllate
 prima nell'[elenco dei suoi workspace](https://gitpod.io/workspaces/) e, nel
 caso, riavviate il relativo *workspace* esistente.
@@ -49,14 +42,8 @@ siano correttamente installati e configurati i seguenti software:
 * Python (versione 3.8, o superiore),
 * Java Development Kit (versione 11, o superiore).
 
-Una volta accertato questo prerequisito, è sufficiente (al primo utilizzo):
-
-*  *clonare* questo repository,
-* aggiungere il percorso assoluto della directory `.bin` in esso contenuta al *path*,
-* definire la variabile d'ambiente `PROG2HOME` in modo che contenga il percorso
-  assoluto della directory dove si intendono svolgere gli esercizi;
-
-a questo punto è possibile procedere nel modo descritto per l'uso su Gitpod.
+Una volta accertato questo prerequisito, è sufficiente (al primo utilizzo)
+*clonare* questo repository (e alla bisogna tenerlo aggiornato con dei *pull*).
 
 Questa modalità è riservata agli studenti già esperti nell'uso degli strumenti
 indicati, ragione per la quale non è previsto alcun supporto ulteriore in caso

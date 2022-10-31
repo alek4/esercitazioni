@@ -1,3 +1,0 @@
-#!/bin/bash
-
-rm -f *.o actual-*.txt diffs-*.txt errors-*.txt *.class \~* soluzione
