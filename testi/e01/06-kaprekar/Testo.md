@@ -15,7 +15,7 @@ dalla più piccola alla più grande. Ad esempio, dato
 
     3124
 
-si otterà
+si otterrà
 
     3087
 
@@ -74,7 +74,7 @@ nel flusso di uscita.
 Suggerimenti
 ------------
 
-Si suggerisce di implementare una metodo statico che, dato un numero, esegua un
+Si suggerisce di implementare un metodo statico che, dato un numero, esegua un
 passo della trasformazione.
 
 Per ordinare le cifre di un numero è possibile procedere ordinando una coppia di
@@ -87,7 +87,7 @@ convincersi che (qualunque sia il numero di partenza), la sequenza
 - ordina la coppia di caratteri in posizione 1 e 3,
 - ordina la coppia di caratteri in posizione 1 e 2;
 
-è sempre sufficiente a ordinare tutte le cifre. Ad esempio, se le cifre sono
+è sempre sufficiente per ordinare tutte le cifre. Ad esempio, se le cifre sono
 inizialmente
 
     4 3 5 2
