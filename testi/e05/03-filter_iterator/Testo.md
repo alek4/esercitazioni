@@ -2,7 +2,7 @@
 
 ## Descrizione
 
-Realizzate un *iteratore filtro* che consenta, dati un iteratore *sorgente* e un
+Si realizzi un *iteratore filtro* che consenta, dati un iteratore *sorgente* e un
 predicato *filtro*, di iterare sugli elementi del sorgente che soddisfano il
 filtro.
 
@@ -27,6 +27,7 @@ public class IsGreaterThan implements Predicate <Integer> {
   public boolean test(Integer t) {
     return t > threshold;
   }
+}
 ```
 Essa può ad esempio essere adoperata come segue:
 ```java
@@ -63,7 +64,7 @@ public class FilterIterator<T> implements Iterator<T> {
 
 ### Uso dell'iteratore filtro
 
-Il l'iteratore filtro sviluppato può essere usato con un filtro (ad esempio,
+L'iteratore filtro sviluppato può essere usato con un filtro (ad esempio,
 quello descritto sopra), come segue:
 ```java
 Iterator<Integer> filtered = new FilterIterator<>(
@@ -77,4 +78,4 @@ ottenendo il medesimo output dell'esempio precedente (ossia i numeri tra `6` e
 
 
 **Nota bene**: Questo esercizio non prevede delle classi (e dei file) di test.
-Può essere comunque opportuno svilupparne alcune.
+Può essere comunque utile svilupparne alcune.

@@ -4,7 +4,7 @@
 
 Un *range* è una sequenza monotona equispaziata di interi univocamente
 determinate da tre interi $(a, b, δ)$ con $δ \not= 0$ che corrisponde agli interi
-$r_i = a + \delta i$ tali che $i \geq 0$ e $r_i < b$ se $δ > 0$, o $r_i > b$ se
+$r_i = a + δ \cdot i$ tali che $i \geq 0$ e $r_i < b$ se $δ > 0$, o $r_i > b$ se
 $δ < 0$; il range è vuoto se $r_0$ non soddisfa le disuguaglianze precedenti.
 
 Ad esempio il range determinato da $(5, 12, 2)$ è $[5, 7, 9, 11]$ mentre quello
